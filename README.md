@@ -1,4 +1,4 @@
-# Memkey RPM Build
+# Memkeys RPM Build
 
 A local vm that is used for building an rpm package of : https://github.com/bmatheny/memkeys
 
