@@ -28,6 +28,10 @@ BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-root
 BuildRequires: libpcap
 BuildRequires: pcre-devel
 BuildRequires: ncurses-devel
+BuildRequires: autoconf
+BuildRequires: automake
+BuildRequires: gcc-c++
+BuildRequires: libtool
 %{?_with_libpcapdevel:BuildRequires: libpcap-devel}
 
 %description
